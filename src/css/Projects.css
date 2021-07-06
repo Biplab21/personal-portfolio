@@ -1,0 +1,74 @@
+h1 {
+  color: blanchedalmond;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+}
+.protect_title {
+  font-size: 44px;
+}
+.card {
+  margin: auto;
+  width: 28rem;
+  height: 28rem;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  box-shadow: 4px 5px 4px 3px rgb(89 4 168 / 14%) !important;
+  transition: all 0.4s ease 0s !important;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button_container {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  width: 10rem;
+}
+.ul {
+  display: flex;
+}
+.ul > li {
+  padding: 0 34px 0 0;
+}
+.badge_container {
+  margin: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.badge {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .project_container {
+    height: 200vh;
+  }
+  .protect_title {
+    font-size: 30px;
+    padding: 0 0 0 33px;
+  }
+  .card {
+    margin: auto;
+    width: 20rem;
+    height: 24rem;
+    margin-bottom: 1rem;
+  }
+  h1 {
+    padding: 1rem;
+  }
+  .button_container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn {
+    width: 8rem;
+  }
+  .badge {
+    font-size: 13px;
+  }
+}

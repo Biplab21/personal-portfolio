@@ -1,0 +1,8 @@
+#tsparticles {
+  background: black;
+}
+
+.tsparticles-canvas-el {
+  position: fixed;
+  background: #120f19;
+}

@@ -1,0 +1,56 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.tech_icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  align-items: center;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  color: #fff;
+}
+
+.tech_icons:hover {
+  transform: scale(1.08);
+}
+
+svg {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-fluid {
+    height: 110vh;
+  }
+  .tech_icons {
+    font-size: 4em !important;
+  }
+  .skills_heading {
+    padding: 0 0 0 25px;
+  }
+  .container-fluid > .icon_box {
+    padding: 0 0 0 25px;
+  }
+}
