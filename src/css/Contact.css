@@ -74,9 +74,9 @@ svg {
   .title {
     font-size: 26px;
   }
-  .contact {
+  /* .contact {
     padding: 0 0 0 33px;
-  }
+  } */
   .contact_container {
     padding-bottom: 1rem;
   }
@@ -101,6 +101,6 @@ svg {
   .contact_image {
     display: flex;
     height: 20rem;
-    padding: 0 0 10px 25px;
+    padding: 0 0 10px 0px;
   }
 }
