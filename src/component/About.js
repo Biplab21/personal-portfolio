@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import img2 from "../Images/code.png";
 import "../css/About.css";
-import pdf from "../assets/BiplabPaul.pdf";
+import pdf from "../assets/BiplabCV.pdf";
 import Fade from "react-reveal/Fade";
 
 const About = () => {
